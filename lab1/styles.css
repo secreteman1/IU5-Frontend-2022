@@ -1,0 +1,26 @@
+body{
+    background-color:#7fcdff;
+}
+
+.col1 {
+    width: 15%;
+    float: left;
+  }
+.col2{
+    width: 50%;
+}
+.col3{
+    width: 35%;
+    float: right;
+}
+.center {
+    margin-top: 3cm;
+  }
+.down{
+    margin-top: 17cm;
+    margin-left: 4cm;
+    padding:5px
+}
+.down1{
+    margin-left: 1cm;
+}
