@@ -8,7 +8,15 @@
  */
 
 function multiplyArray(arr, n) {
-    // code here
+    a=arr.length;
+    for (let i = 0; i < a; i+=1) {
+        if ((!isNaN(arr[i]))&&(arr[i]!=false)&&(arr[i]!=true)){
+        arr[i]=arr[i]*n
+     }
+     if (arr[i]===1){arr[i]=arr[i]*n}
+     }
+     
+     return arr;
 }
 
 module.exports = multiplyArray;
