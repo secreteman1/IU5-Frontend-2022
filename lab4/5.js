@@ -11,7 +11,7 @@
  */
 
 function checkBrackets(str) {
-    //code here
+    
 }
 
 module.exports = checkBrackets;

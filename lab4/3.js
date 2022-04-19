@@ -8,7 +8,11 @@
  */
 
 function rle(str) {
-    //code here
+    let str2='' ;count=0 ;i1=0;i = 0;
+    while (i < str.length) {
+        while (str[i]==str[i1]) { count=count+1; i1+=1 }
+        if (count>1){str2 = str2+str[i]+count;}
+        else{str2 = str2+str[i];} i=i1;count=0;}
+        return str2
 }
-
 module.exports = rle;
